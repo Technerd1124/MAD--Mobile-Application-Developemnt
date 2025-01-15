@@ -1,9 +1,6 @@
- #  Mobile Application  developement  
 
  # Androide Application  Development 
 
- #Java 
 
- # Diploma 6th Semester 
-
+ # Using Java
  # Lab Practicals 
