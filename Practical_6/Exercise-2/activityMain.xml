@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="556dp"
+        android:layout_height="917dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="Interger "
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationX="85dp"
+            android:translationY="100dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="Boolean"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationX="85dp"
+            android:translationY="250dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="String "
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationX="85dp"
+            android:translationY="200dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="Float"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationX="85dp"
+            android:translationY="150dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="Array"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            android:translationX="85dp"
+            android:translationY="300dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6980DA"
+            android:fontFamily="sans-serif-black"
+            android:text="Button"
+            android:textColor="#040303"
+            android:translationX="85dp"
+            android:translationY="350dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="459dp"
+            android:layout_height="67dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Above are the Data Types of OOP"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:translationX="50dp"
+            android:translationY="540dp" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
