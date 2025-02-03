@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61980F0F"
+    android:backgroundTint="#00FFFFFF"
+    android:backgroundTintMode="src_in"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="196dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="529dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twiiterlogo" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="328dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="31dp"
+        android:fontFamily="@font/baloo"
+        android:text="Log In To Twitter "
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usertv"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:hint="Enter Email or Username"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passtv"
+        android:layout_width="247dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="331dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_supervised_user_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="331dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_lock_open_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="201dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="587dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#1684B9"
+        android:fontFamily="@font/baloo"
+        android:text="Log In"
+        android:textSize="24sp"
+        android:onClick="DisplayState"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/stateView"
+        android:layout_width="299dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="677dp"
+        android:layout_marginEnd="56dp"
+        android:textColor="#8E24AA"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
