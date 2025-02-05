@@ -7,11 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="404dp"
-        android:layout_height="598dp"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="32dp">
 
         <TextView
             android:id="@+id/textView3"
@@ -126,5 +121,4 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
